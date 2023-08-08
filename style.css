@@ -1,8 +1,20 @@
 
+body{
+   background-color: #a2d2ff;
+   font-family: 'Happy Monkey', cursive;
+   color: #ffffff;
+}
 
+h1,h2,h3,p{
+   text-shadow: 0px 0px 1px black; 
+}
 .hero-section{
-    font-family: 'Happy Monkey', cursive;
+    
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -10,6 +22,7 @@
     width:150px;
     height:160px;
     border-radius: 50%;
+    border: 6px solid #EFB0C9;
 }
 
 #bday-age{
@@ -18,5 +31,14 @@ background:#EFB0C9;
 }
 #bday-date{
 background: #EFB0C9;
-;
+
 }
+.gift-sec{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.gift-img{
+    border: 6px solid #ffffff;
+}
+
